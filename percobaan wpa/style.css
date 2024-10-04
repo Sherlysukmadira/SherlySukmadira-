@@ -1,0 +1,251 @@
+* { 
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+
+
+.logo a {
+    font-size : 50px;
+    font-weight: bold;
+    float: left ;
+    font-family: Courier;
+    color: #C5705D ;
+}
+
+.menu{
+    float: right;
+}
+
+nav {
+    width : 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: antiquewhite;
+    z-index: 1;
+    border-bottom:1px antiquewhite;
+}
+
+nav ul{
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float : left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding : 0px 16px 0px 16px;
+    text-decoration : none;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+section {
+    margin : auto;
+    display :flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .Deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: chocolate;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color :chocolate;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #C5705D ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: rgb(255, 136, 156) ;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: rgb(255, 136, 156) ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-pink:hover {
+    background: rgb(178, 86, 53);
+}
+
+#contact {
+    background: cornsilk;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px ;
+    color: chocolate;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+.contact-info {
+    display: flex;
+    justify-content: center; /* Memusatkan form di tengah */
+    align-items: center;
+    flex-direction: column; /* Agar elemen di dalamnya berjejer secara vertikal */
+    margin-top: 20px;
+    width: 100%; /* Pastikan kontainer mengambil seluruh lebar */
+}
+
+.contact-info table {
+    width: 100%; /* Atur lebar form */
+    max-width: 400px; /* Berikan batas maksimal lebar */
+    margin-top: 20px;
+}
+
+
+
+.contact-section {
+    text-align: left;
+    margin-top: 50px; /* Kurangi nilai margin-top */
+    background-color: cornsilk;
+    padding: 50px 0; 
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.contact-item img {
+    margin-right: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: chocolate;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+
+.contact-form {
+    width: 100%; /* Form lebar 100% dari div parent */
+    max-width: 500px; /* Atur batas maksimal lebar form */
+    margin: 20px 20px 20px 40px; /* Pusatkan form secara horizontal */
+    padding: 20px; /* Tambahkan padding untuk ruang dalam form */
+    background-color: white; /* Background warna putih untuk form */
+    border-radius: 10px; /* Tambahkan border radius agar form tampak lebih smooth */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sedikit bayangan agar form terlihat menonjol */
+}
+
+/* Ukuran input dan textarea */
+.form-input {
+    width: 100%; /* Input dan textarea lebar penuh */
+    padding: 10px; /* Spasi dalam input */
+    margin-top: 10px; /* Jarak antara label dan input */
+    font-size: 16px; /* Ukuran font input */
+    border: 1px solid #ccc; /* Tambahkan border */
+    border-radius: 5px; /* Buat sudut-sudut input lebih halus */
+    box-sizing: border-box; /* Memastikan padding tidak memengaruhi ukuran total elemen */
+}
+
+/* Pengaturan tombol */
+.form-button {
+    padding: 10px 20px; /* Spasi dalam tombol */
+    margin: 10px 5px; /* Jarak antar tombol */
+    font-size: 16px; /* Ukuran font tombol */
+    background-color: chocolate; /* Warna tombol */
+    color: white; /* Warna teks pada tombol */
+    border: none; /* Hilangkan border */
+    border-radius: 5px; /* Sudut tombol yang melengkung */
+    cursor: pointer; /* Pointer saat hover */
+}
+
+.form-button:hover {
+    background-color: darkorange; /* Warna saat tombol di-hover */
+}
+
+#message {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
